@@ -1,20 +1,118 @@
-<!DOCTYPE>
 <html>
-  <head>
-    <style>
-  @font-face {
-    font-family:'SF Pro Display Bold';
-    font-style:normal;
-    font-weight:100;
-    src:local('☺'), url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Display/v3/sf-pro-  display_ultralight.woff") format("woff"), url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf") format("truetype");
-  }
-      p.Title {
-        font-family: "SF Pro Display Bold"
-      }
-  </style>
-  </head>
-  <body>
-    <p class="Title">test</p>
-  </body>
+    <head>
+        <script type="text/javascript">
+            function open(url) {
+                window.open(url);
+            }
+        </script>
+        <style type="text/css">
+            @keyframes backgroundColor {
+                from {
+                    background-color: rgb(100, 250, 150);
+                }
+                to {
+                    background-color: rgb(0, 0, 50);
+                }
+            }
+            @keyframes backgroundColorToWhite {
+                from {
+                    background-color: rgb(100, 250, 150);
+                }
+                to {
+                    background-color: rgb(255, 255, 255);
+                }
+            }
+            @keyframes foregroundColor {
+                from {
+                    color: rgb(100, 250, 150);
+                }
+                to {
+                    color: rgb(0, 0, 50);
+                }
+            }
+            .h1-heading-sans-thin {
+                font-family: sans-serif;
+                font-weight: 300;
+                animation: foregroundColor 5s;
+                color: rgb(0, 0, 50);
+            }
+            .p-heading-sans-thin {
+                font-family: sans-serif;
+                font-weight: 300;
+                color: black;
+            }
+            .titleArea {
+                text-align: center;
+            }
+            .background-towhite {
+                background-color: white;
+                padding: 25px;
+                border-radius: 15px;
+                animation: backgroundColorToWhite 5s;
+            }
+            #background-white {
+                background-color: white;
+                padding: 15px;
+                border-radius: 15px;
+            }
+            #background-fixed {
+                background-color: rgb(0, 0, 50);
+                padding: 15px;
+                border-radius: 15px;
+            }
+            #padding-50px {
+                padding: 50px;
+            }
+            #padding-5px {
+                padding: 5px;
+            }
+            #HStack {
+                display: flex;
+            }
+            ul li {
+                list-style: none;
+            }
+            body {
+                animation: backgroundColor 5s;
+                background-color: rgb(0, 0, 50);
+            }
+            img {
+                max-width: 100;
+                height: auto;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="body">
+            <div id="padding-50px">
+                <div class="titleArea" id="background-white">
+                    <h1 class="h1-heading-sans-thin"> DeveloperUtils </h1>
+                </div>
+            </div>
+            <div style="padding: 50px">
+                <div class="background-towhite">
+                    <div id="HStack">
+                        <img src="https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Utilities.png" alt="Test"/>
+                        <div>
+                            <p class="p-heading-sans-thin" id="padding-5px"><b>Utilities<b></p>
+                            <p class="p-heading-sans-thin" id="padding-5px">An app that helps you with shell scripts</p>
+                        </div>
+                        <div id="link-utilities">
+                            <a href="https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Mockingbird-Universal-Release.dmg" id="padding-5px">Download</a>
+                        </div>
+                    </div>
+                    <div id="HStack">
+                        <img src="https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Mockingbird.png" alt="Test"/>
+                        <div>
+                            <p class="p-heading-sans-thin" id="padding-5px"><b>Mockingbird<b></p>
+                            <p class="p-heading-sans-thin" id="padding-5px">API Testing made easier and lighter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
-  

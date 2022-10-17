@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:index.html">
+   </FileRef>
+   <FileRef
+      location = "group:Mockingbird-Universal-Release.dmg">
+   </FileRef>
+   <FileRef
+      location = "group:Mockingbird.png">
+   </FileRef>
+   <FileRef
+      location = "group:Project.xcworkspace">
+   </FileRef>
+   <FileRef
+      location = "group:Utilities-Universal-Release.dmg">
+   </FileRef>
+   <FileRef
+      location = "group:Utilities.png">
+   </FileRef>
+</Workspace>

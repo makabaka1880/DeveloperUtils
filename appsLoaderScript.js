@@ -14,7 +14,7 @@ function elementScript(data) {
 }
 const apps = JSON.parse(require('appsData.json'));
 var container = document.getElementById('')
-for app in apps {
+for (app in apps) {
     console.log(app);
     container.innerHTML += elementScript(app)
 }

@@ -1,4 +1,4 @@
-[
+apps = [
     {
         "name": "Utilities",
         "description": "An app that helps you with shell scripts.",

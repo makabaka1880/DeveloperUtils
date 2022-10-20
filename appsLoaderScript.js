@@ -12,7 +12,7 @@ function elementScript(data) {
     </div>
     `
 }
-const apps = JSON.parse(require('appsData.json'));
+const apps = apps;
 var container = document.getElementById('')
 for (app in apps) {
     console.log(app);

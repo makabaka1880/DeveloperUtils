@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Utilities",
+        "description": "An app that helps you with shell scripts.",
+        "image": "https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Utilities.png",
+        "download": "https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Utilities-Universal-Release.dmg"
+    },
+    {
+        "name": "Mockingbird",
+        "description": "API Testing made easier and lighter.",
+        "image": "https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Mockingbird.png",
+        "download": "https://raw.githubusercontent.com/makabaka1880/DeveloperUtils/main/Mockingbird-Universal-Release.dmg"
+    }
+]
